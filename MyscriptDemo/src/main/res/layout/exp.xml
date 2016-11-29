@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#808080"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:text="Professional experience"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/internship_title"
+            android:textSize="30sp"
+            android:layout_below="@+id/header"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:id="@+id/internship"
+            android:textColor="@color/Title_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/internship_lebal"
+            android:textSize="20sp"
+            android:layout_below="@+id/internship"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:id="@+id/internship_lebal"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/internship_detail"
+            android:textSize="25sp"
+            android:layout_below="@+id/internship_lebal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:id="@+id/internship_detail"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+</ScrollView>
+

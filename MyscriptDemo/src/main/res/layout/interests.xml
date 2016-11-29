@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#808080"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:text="Interests"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/internship"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Music"
+            android:textSize="30sp"
+            android:layout_below="@+id/header"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:textColor="@color/Title_1" />
+
+        <TextView
+            android:id="@+id/music_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/music"
+            android:textSize="20sp"
+            android:layout_below="@+id/internship"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:id="@+id/internship_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Sports"
+            android:textSize="30sp"
+            android:layout_below="@+id/music_detail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:textColor="@color/Title_1" />
+
+        <TextView
+            android:id="@+id/sports_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/sports"
+            android:textSize="20sp"
+            android:layout_below="@+id/internship_detail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_horizontal_margin" />
+        <TextView
+            android:id="@+id/traveling"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Traveling"
+            android:textSize="30sp"
+            android:layout_below="@+id/sports_detail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:textColor="@color/Title_1" />
+        <TextView
+            android:id="@+id/traveling_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/traveling"
+            android:textSize="20sp"
+            android:layout_below="@+id/traveling"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_horizontal_margin" />
+    </RelativeLayout>
+</ScrollView>
+

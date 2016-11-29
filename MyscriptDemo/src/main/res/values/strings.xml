@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Demo LI</string>
+    <string name="app_title">Demo LI Ziyao</string>
+    <string name="emoticon_button">:-)</string>
+    <string name="space_button">Space</string>
+    <string name="delete_button">Del</string>
+    <string name="action_clear">Clear</string>
+    <string name="effect_felt_pen">Felt pen</string>
+    <string name="effect_fountain_pen">Fountain pen</string>
+    <string name="effect_calligraphic_brush">Calligraphic brush</string>
+    <string name="effect_calligraphic_quill">Calligraphic quill</string>
+    <string name="effect_qalam">Qalam</string>
+    <string name="input_text"></string>
+    <string name="polytech_formation">Polytech Nantes, Graduate school of Engineering
+Specialty: Electronics and Digital Technology (EE)</string>
+    <string name="poltech_duree">From September 2015 to present</string>
+    <string name="scut_formation">SCUT (South China University of Technology), Guangzhou, China,
+University diploma in Automatic (4-year course)</string>
+    <string name="scut_duree">From September 2011 to June 2015</string>
+    <string name="music">Practicing the saxophone for
+11 years (getting a certificate
+10 level in China)</string>
+    <string name="sports">Ping pong, Badminton,
+Hiking</string>
+    <string name="traveling">France, Spain, Andorra,
+Majority provinces of China</string>
+    <string name="internship_title">Internship --- Project with the company Capsia</string>
+    <string name="internship_lebal">Capsia - Nantes, France - Internship - June 2016 - September 2016</string>
+    <string name="internship_detail">Using Spring (Framework) to build and define the infrastructure of a JAVA application.
+        Using Apache Maven for dependency management and production automation for Java projectsEE.
+        Using Persistence Management of Relational Database Objects with Hibernate (Framework).
+        Analysis to the design and realization of a complex interface based on web Services with JSF2 and Primefaces.</string>
+</resources>
